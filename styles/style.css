@@ -1,9 +1,168 @@
+/* general css */
 * {
     margin: 0;
     padding: 0;
 }
 
-/* top-banner css */
-.top-header {
-    text-align: center;
+/* adding google font in the body with body tag */
+body {
+    font-family: 'Edu TAS Beginner', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* the css of the top banner part is written here */
+.top-banner {
+    background-color: #272727;
+    border-radius: 33px;
+    margin: 50px 137px;
+}
+
+.things-inside-banner {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.right-part {
+    width: 50%;
+}
+
+.right img {
+    width: 570px;
+    height: 650px;
+    margin-top: 30px;
+    margin-right: 77px;
+    margin-bottom: 80px;
+    margin-left: 60px;
+}
+
+.left-part {
+    width: 50%;
+    padding: 100px;
+}
+
+.left-part h1 {
+    font-weight: 700;
+    font-size: 75px;
+    color: aliceblue;
+    margin: 33px;
+}
+
+.left-part-para {
+    font-size: 17px;
+    color: azure;
+    margin: 33px;
+}
+
+.left-part-button {
+    background-color: tomato;
+    border-radius: 8px;
+    color: whitesmoke;
+    padding: 25px 53px;
+    margin-left: 28px;
+}
+
+.left-part-button:hover {
+    background-color: orangered;
+    color: #272727;
+}
+
+/* the css of news container section is declared here */
+.news-container {
+    margin: 45px 135px;
+    display: flex;
+    gap: 30px;
+}
+
+.btn {
+    background-color: rgb(21, 24, 27);
+    border-radius: 8px;
+    height: 100%;
+}
+
+.button-section {
+    padding: 33px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    align-items: center;
+}
+
+.a-in-btn {
+    text-decoration: none;
+    font-size: 23px;
+    border-radius: 13px;
+    color: #272727;
+}
+
+.btn-number-one {
+    background-color: aliceblue;
+    padding: 20px 36px;
+    border-radius: 13px;
+}
+
+.btn-number-one a {
+    color: #272727;
+}
+
+.btn-number-two {
+    background-color: aliceblue;
+    padding: 20px 36px;
+    border-radius: 13px;
+}
+
+.btn-number-two a {
+    color: #272727;
+}
+
+.btn-number-three {
+    background-color: tomato;
+    padding: 20px 36px;
+    border-radius: 13px;
+    color: black;
+}
+
+.btn-number-three:hover {
+    background-color: orangered;
+    color: slateblue;
+}
+
+/* news-blog css are written here */
+.news-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 26px;
+}
+
+.cards {
+    border: 2px solid #E8E8E8;
+    border-radius: 13px;
+}
+
+.card-container img {
+    width: 100%;
+}
+
+.card-materials {
+    margin: 23px;
+}
+
+.btn-of-card button {
+    padding: 5px 15px;
+    border-radius: 7px;
+    font-size: 16px;
+    background-color: white;
+}
+
+.btn-of-card p {
+    font-size: 15px;
+    font-weight: 600;
+    margin: 18px 0 18px 0;
+}
+
+.card-details {
+    display: flex;
+    align-items: center;
+    gap: 33px;
 }
