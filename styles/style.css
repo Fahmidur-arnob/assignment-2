@@ -14,7 +14,7 @@ body {
 .top-banner {
     background-color: #272727;
     border-radius: 33px;
-    margin: 50px 137px;
+    margin: 40px 30px;
 }
 
 .things-inside-banner {
@@ -29,11 +29,8 @@ body {
 
 .right img {
     width: 570px;
-    height: 650px;
-    margin-top: 30px;
-    margin-right: 77px;
-    margin-bottom: 80px;
-    margin-left: 60px;
+    height: 570px;
+    margin: 30px;
 }
 
 .left-part {
@@ -43,23 +40,21 @@ body {
 
 .left-part h1 {
     font-weight: 700;
-    font-size: 75px;
+    font-size: 65px;
     color: aliceblue;
-    margin: 33px;
 }
 
 .left-part-para {
     font-size: 17px;
     color: azure;
-    margin: 33px;
+    margin: 33px 0;
 }
 
 .left-part-button {
     background-color: tomato;
     border-radius: 8px;
     color: whitesmoke;
-    padding: 25px 53px;
-    margin-left: 28px;
+    padding: 25px;
 }
 
 .left-part-button:hover {
@@ -91,7 +86,7 @@ body {
 
 .a-in-btn {
     text-decoration: none;
-    font-size: 23px;
+    font-size: 18px;
     border-radius: 13px;
     color: #272727;
 }
@@ -123,10 +118,30 @@ body {
     color: black;
 }
 
+.btn-number-three a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #272727;
+}
+
 .btn-number-three:hover {
     background-color: orangered;
-    color: slateblue;
+    color: white;
 }
+
+.btn-number-three a:hover {
+    color: white;
+}
+
+/* .btn-of-three {
+    text-decoration: none;
+    color: #272727;
+    font-size: 18px;
+} */
+
+/* .btn-of-three:hover {
+    color: white;
+} */
 
 /* news-blog css are written here */
 .news-cards {
