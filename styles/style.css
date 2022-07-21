@@ -6,7 +6,7 @@ body {
     margin: 0;
 }
 
-/* the css of the top banner part is written here */
+/* the css of the top banner part is written here also 'top-banner' contains the animation part*/
 .top-banner {
     background-color: #272727;
     border-radius: 33px;
@@ -15,6 +15,8 @@ body {
     display: grid;
     place-items: center;
 }
+
+/* animation part for top banner,, this changes the background-color after 5s name of the animation is changeBg */
 
 @keyframes changeBg {
     0% {
@@ -256,6 +258,49 @@ body {
     border: none;
     border-radius: 8px;
     font-size: 18px;
+}
+
+/* css for flags in upcomming matches is written here */
+
+.match-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.match-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 52px 28px;
+    border: 2px solid sienna;
+    border-radius: 9px;
+}
+
+.match-card:hover {
+    background-color: antiquewhite;
+    box-shadow: inset 2px 5px 6px 7px springgreen;
+}
+
+.match-card-banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.match-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.country-name {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.details {
+    color: #272727;
 }
 
 /* css of footer section is written here */
