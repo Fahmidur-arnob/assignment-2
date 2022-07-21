@@ -476,6 +476,13 @@ body {
     }
 
 
+    /* responsive part for match info's */
+    .match-cards {
+        grid-template-columns: 1fr;
+        justify-content: center;
+        background-color: white;
+        color: slateblue;
+    }
 
     /* responsive footer css */
     .foo-ter,
@@ -565,6 +572,17 @@ body {
 
     .cards {
         width: 355px;
+    }
+
+
+    /* responsive css for match info's */
+    .match-cards {
+        grid-template-columns: 1fr 1fr;
+        background-color: bisque;
+    }
+
+    .match-card {
+        width: 300px;
     }
 
     .view-all {
